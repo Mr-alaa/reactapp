@@ -6,8 +6,5 @@ module.exports = {
     tailwindcss,
     require('autoprefixer')
   ],
-  content: [
-    './src/**/*.html',
-    './src/**/*.tsx', // Include .tsx extension for TypeScript files
-  ],
+  content: ['./src/**/*.html', './src/**/*.js', './src/**/*.jsx', './src/**/*.tsx'],
 };
